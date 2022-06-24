@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ebay smoke]">
+  <parameter name="os" value="windows"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://www.ebay.com"/>
+  <test thread-count="5" name="tests(failed)">
+    <classes>
+      <class name="apps.ebay.InvalidloginPage">
+        <methods>
+          <include name="InvalidLoginCred"/>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- apps.ebay.InvalidloginPage -->
+      <class name="apps.ebay.BrandOutletPageTest">
+        <methods>
+          <include name="sauony"/>
+          <include name="champion"/>
+          <include name="cros"/>
+          <include name="afterEachTestMethod"/>
+          <include name="reedbook"/>
+          <include name="extentSetup"/>
+          <include name="superdry"/>
+          <include name="startExtent"/>
+          <include name="puma"/>
+          <include name="Keds"/>
+          <include name="Clothing"/>
+          <include name="FootwearApprel"/>
+          <include name="generateReport"/>
+          <include name="volcom"/>
+          <include name="Asis"/>
+          <include name="setUp"/>
+          <include name="hanes"/>
+          <include name="brandOutlet"/>
+        </methods>
+      </class> <!-- apps.ebay.BrandOutletPageTest -->
+      <class name="apps.ebay.ElectronicsPageTest">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="printer"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- apps.ebay.ElectronicsPageTest -->
+      <class name="apps.ebay.HomeAndGardenTest">
+        <methods>
+          <include name="allbathroom"/>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- apps.ebay.HomeAndGardenTest -->
+      <class name="apps.ebay.AddcartPageTest">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="login"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- apps.ebay.AddcartPageTest -->
+      <class name="apps.ebay.MotorPageTest">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="CarsTruck"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- apps.ebay.MotorPageTest -->
+      <class name="apps.ebay.CommunityPageTest">
+        <methods>
+          <include name="community"/>
+          <include name="afterEachTestMethod"/>
+          <include name="ebaypodcast"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="ebaycommunity"/>
+        </methods>
+      </class> <!-- apps.ebay.CommunityPageTest -->
+      <class name="apps.ebay.ToysPageTest">
+        <methods>
+          <include name="onfiq"/>
+          <include name="afterEachTestMethod"/>
+          <include name="ssseA"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- apps.ebay.ToysPageTest -->
+      <class name="apps.ebay.MorePageTest">
+        <methods>
+          <include name="more"/>
+          <include name="buissnes"/>
+          <include name="afterEachTestMethod"/>
+          <include name="jewlarly"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="ebayefer"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- apps.ebay.MorePageTest -->
+      <class name="apps.ebay.ClothingShoesPagesTest">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="allWomen"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- apps.ebay.ClothingShoesPagesTest -->
+    </classes>
+  </test> <!-- tests(failed) -->
+</suite> <!-- Failed suite [ebay smoke] -->
